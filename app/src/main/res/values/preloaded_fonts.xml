@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/anton</item>
+        <item>@font/asset</item>
+        <item>@font/bowlby_one_sc</item>
+        <item>@font/candal</item>
+        <item>@font/electrolize</item>
+        <item>@font/marvel</item>
+        <item>@font/modern_antiqua</item>
+    </array>
+</resources>

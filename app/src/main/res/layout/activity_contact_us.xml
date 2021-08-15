@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1_topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="@string/tv1_topic"
+        android:textColor="#070707"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv2_name"
+        android:layout_width="121dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/anton"
+        android:text="@string/tv2_name"
+        android:textColor="#121111"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <EditText
+        android:id="@+id/et1_name_type"
+        android:layout_width="411dp"
+        android:layout_height="84dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/et1_name_type"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2_name" />
+
+    <TextView
+        android:id="@+id/tv3_email"
+        android:layout_width="121dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/anton"
+        android:text="@string/tv2_email"
+        android:textColor="#0E0E0E"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et1_name_type" />
+
+    <EditText
+        android:id="@+id/et2_emailtype"
+        android:layout_width="411dp"
+        android:layout_height="84dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/et2_emailtype"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv3_email" />
+
+    <TextView
+        android:id="@+id/tv4_message"
+        android:layout_width="121dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/anton"
+        android:text="@string/tv4_message"
+        android:textColor="#090909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et2_emailtype" />
+
+    <EditText
+        android:id="@+id/et3_messagetype"
+        android:layout_width="411dp"
+        android:layout_height="84dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/et3_messagetype"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv4_message" />
+
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="114dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/bt1_submit"
+        android:textColor="#FAF5F5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et3_messagetype" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="207dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1_topic"
+        app:srcCompat="@drawable/background" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

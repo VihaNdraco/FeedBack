@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FeedBack</string>
+    <string name="tv1_givefeedback">Give Feedback</string>
+    <string name="tv2_rateExpierince">Rate Expierience</string>
+    <string name="tv3_addComments">Add Comments</string>
+    <string name="b1_submit">Submit</string>
+    <string name="tv1_topic">Please Contact Us Using The Form Below</string>
+    <string name="tv_image">image</string>
+    <string name="tv2_name">Name</string>
+    <string name="et1_name_type" />
+    <string name="tv2_email">E-mail</string>
+    <string name="et2_emailtype" />
+    <string name="tv4_message">Message</string>
+    <string name="et3_messagetype" />
+    <string name="bt1_submit">Submit</string>
+    <string name="tv1_review">Product Review</string>
+    <string name="tv2_name1">You</string>
+    <string name="tv3_comment1">Comments</string>
+    <string name="tv4_others_rev">Others Reviews</string>
+    <string name="tv5_name2">Name</string>
+    <string name="tv6_comment2">Comments</string>
+    <string name="tv7_name3">Name</string>
+    <string name="tv8_comment3">Comments</string>
+    <string name="tv9_name4">Name</string>
+    <string name="tv10_comment4">Comments</string>
+    <string name="tv1_ourstory">Our Story</string>
+    <string name="tv3_thankyou">Thank You!</string>
+
+
+</resources>
